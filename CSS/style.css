@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.grey {
+    color: gray;
+    font-size: 20px;
+}
+
+
+.logo img {
+    width: 200px;
+
+}
+
+.pages ul {
+    display: flex;
+}
+
+.pages ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+
+}
+
+.pages ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    background-image: url(../Images/hero-construction-excavator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+.background h1 {
+    transform: translateY(280px);
+}
+
+.background h4 {
+    transform: translateY(280px);
+}
+
+.services-1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px, 0px;
+}
+
+.service-card {
+    padding-top: 10px;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(184, 211, 243);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: darkslategray;
+}
+
+.service-card h3 {
+    transform: translateY(15px);
+}
+
+.services-2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.about-us {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.content-about {
+    margin: 20px;
+}
+
+.content-about p {
+    font-size: 20px;
+}
+
+.img-about {
+    margin: 20px;
+}
+
+.call {
+    background-color: aliceblue;
+    width: 40%;
+    border-radius: 10px;
+
+}
+
+.call p {
+    color: brown;
+}
+
+.mail {
+    background-color: aliceblue;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.mail p {
+    color: brown;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.achievement {
+    background-image: url(../Images/section-bg4-2.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.target {
+    color: white;
+}
+
+.achivement .target i {
+    color: pink;
+}
+
+.projects-title {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-1 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.project-2 {
+    margin-left: 30px;
+}
+
+.projects button {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(241, 28, 56);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.manager {
+    transform: translateY(70px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.message {
+    margin-left: 40px;
+}
+
+.eng-photo {
+    width: 100%;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.eng-photo img {
+    width: 450px;
+    height: 600px;
+}
+
+.our-company {
+    transform: translateY(300px);
+    display: flex;
+    justify-content: space-around;
+}
+
+.principil {
+    width: 40%;
+}
+
+.principil-build {
+    width: 40%;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(24, 24, 43);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-about {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.footer-about img {
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer-about h4 {
+    margin-bottom: 30px;
+}
+
+.links {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.links .link1 a {
+    display: block;
+    text-decoration: none;
+}
+
+.links .link2 a {
+    display: block;
+    text-decoration: none;
+}
+
+.links .link2 {
+    margin-top: 20px;
+}
+
+.contacts {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.footer .contacts h4 {
+    display: inline-block;
+    margin-top: 20px;
+}
+
